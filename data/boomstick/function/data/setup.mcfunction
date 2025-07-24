@@ -1,0 +1,3 @@
+tellraw @a "Loading boomstick..."
+scoreboard objectives add boom_stick minecraft.used:carrot_on_a_stick
+tellraw @a ["",{"color":"#A2FF00","text":"["},{"color":"#96FF09","text":"B"},{"color":"#8BFF12","text":"o"},{"color":"#7FFF1B","text":"o"},{"color":"#74FF25","text":"m"},{"color":"#68FF2E","text":"p"},{"color":"#5DFF37","text":"a"},{"color":"#51FF40","text":"c"},{"color":"#45FF49","text":"k "},{"color":"#3AFF52","text":"v"},{"color":"#2EFF5B","text":"1"},{"color":"#23FF65","text":"."},{"color":"#17FF6E","text":"0"},{"color":"#00FF80","text":"]"},{"color":"white","text":"loaded sucessfully."}]

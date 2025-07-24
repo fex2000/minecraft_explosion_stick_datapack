@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "Boomstick Datapack Info",
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:fire_charge"
+      },
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Use",
+        "extra": [
+          "\n/function boomstick:give/<stength>",
+          "\nto get a specifig strength",
+          "\n",
+          "\nor use",
+          "\n/function boomstick:give",
+          "\nto get all stengths",
+          "\n",
+          "\nALL sticks can easily crash your world!"
+        ]
+      }
+    }
+  ],
+  "inputs": [],
+  "yes": {
+    "label": "Give all sticks",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "function boomstick:give"
+    }
+  },
+  "no": {
+    "label": "Dismiss"
+  }
+}
