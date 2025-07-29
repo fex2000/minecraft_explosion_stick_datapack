@@ -1,1 +1,1 @@
-dialog show @s[scores={boomseeninfo=0}] boomstick:info
+dialog show @s boomstick:info

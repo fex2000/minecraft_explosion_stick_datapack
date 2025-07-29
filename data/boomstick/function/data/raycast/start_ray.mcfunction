@@ -6,7 +6,7 @@ scoreboard players set #distance boomraycast 0
 
 #Activating the raycast. This function will call itself until it is done.
 
-function boomstick_raycast:ray
+function boomstick:data/raycast/ray
 
 #Raycasting finished, removing tag from the raycaster.
 

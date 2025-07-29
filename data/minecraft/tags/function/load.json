@@ -1,7 +1,6 @@
 {
 	"replace": false,
 	"values": [
-        "boomstick:data/setup",
-		"boomstick_raycast:load"
+        "boomstick:data/setup"
 	]
 }

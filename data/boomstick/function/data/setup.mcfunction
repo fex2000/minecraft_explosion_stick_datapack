@@ -1,3 +1,4 @@
 tellraw @a "Loading boomsticks..."
 scoreboard objectives add boom_stick minecraft.used:carrot_on_a_stick
-tellraw @a [{"color":"#88FF00","text":"["},{"color":"#7EFF07","text":"B"},{"color":"#75FF0D","text":"o"},{"color":"#6BFF14","text":"o"},{"color":"#61FF1B","text":"m"},{"color":"#57FF22","text":"s"},{"color":"#4EFF28","text":"t"},{"color":"#44FF2F","text":"i"},{"color":"#3AFF36","text":"c"},{"color":"#31FF3C","text":"k"},{"color":"#27FF43","text":"s "},{"color":"#1DFF4A","text":"v"},{"color":"#13FF51","text":"1"},{"color":"#00FF5E","text":"]"},{"color":"white","text":"loaded succeessfully!"}]
+scoreboard objectives add boomraycast dummy
+tellraw @a [{"color":"#88FF00","text":"["},{"color":"#7EFF07","text":"B"},{"color":"#75FF0D","text":"o"},{"color":"#6BFF14","text":"o"},{"color":"#61FF1B","text":"m"},{"color":"#57FF22","text":"s"},{"color":"#4EFF28","text":"t"},{"color":"#44FF2F","text":"i"},{"color":"#3AFF36","text":"c"},{"color":"#31FF3C","text":"k"},{"color":"#27FF43","text":"s "},{"color":"#1DFF4A","text":"v"},{"color":"#13FF51","text":"1"},{"color":"#00FF5E","text":"] "},{"color":"white","text":"loaded succeessfully!"}]
